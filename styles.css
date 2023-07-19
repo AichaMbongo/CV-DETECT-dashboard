@@ -1,0 +1,138 @@
+/* Custom styles for the index page */
+
+body {
+    /* padding-top: 70px; */
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    overflow-x: hidden;
+  }
+  .sales-revenue {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sales-revenue h1 {
+    margin-right: 5px;
+  }
+  
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .input-field {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(150, 147, 6, 0.5);
+    padding: 1px 1px;
+    margin-left: 10px;
+    margin: 4px;
+    text-align: center;
+    
+  }
+  
+
+  .bg-dark {
+    font-size: 0.95rem;
+    color: #e4a111;
+    min-height: 100%;
+    box-shadow: 0 2px 6px rgba(9, 8, 75, 0.9);
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    /* Adjust styles for screens smaller than 768px */
+    .bg-dark {
+      font-size: 0.8rem;
+      max-height: 100%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    /* Adjust styles for screens smaller than 576px */
+    .bg-dark {
+      font-size: 0.6rem;
+    }
+  }
+  
+  
+  .bg-gradient {
+    background-color: #e4a111;
+    /* Add your gradient styles here */
+  }
+  
+  
+  .card {
+    margin-top: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(9, 8, 75, 0.9);
+    padding: 20px;
+    transition: transform 0.3s;
+}
+.card1 {
+    margin-top: -51px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(206, 203, 15, 0.9);
+    padding: 5px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+  
+  .card-title {
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    /* margin-bottom: 10px; */ 
+  }
+  
+  .card-content {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .card-chart {
+    height: 300px;
+  }
+  
+  .key-metrics {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    box-shadow: 0 0 20px rgba(199, 173, 25, 0.6);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .key-metrics:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .metric-item {
+    flex-basis: calc(25% - 20px);
+  }
+  
+  .metric-value {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .metric-label {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  @media (max-width: 768px) {
+    .metric-item {
+      flex-basis: calc(50% - 20px);
+    }
+  }
+  
